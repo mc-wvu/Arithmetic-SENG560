@@ -3,15 +3,15 @@ package arithmetic;
 public class Division implements Divider {
     @Override
     public int divide(int num1, int num2) {
-        return num1 - num2;
+        return num1 / num2;
     }
     @Override
     public float divide(float num1, float num2) {
-        return num1 - num2;
+        return num1 / num2;
     }
     @Override
     public float divide(float num1, int num2) {
-        return num1 - num2;
+        return num1 / num2;
     }
     @Override
     public String divideBinary(String num1, String num2) {

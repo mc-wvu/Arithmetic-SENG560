@@ -3,15 +3,15 @@ package arithmetic;
 public class Multiplication implements Multiplier {
     @Override
     public int multiply(int num1, int num2) {
-        return num1 - num2;
+        return num1 * num2;
     }
     @Override
     public float multiply(float num1, float num2) {
-        return num1 - num2;
+        return num1 * num2;
     }
     @Override
     public float multiply(float num1, int num2) {
-        return num1 - num2;
+        return num1 * num2;
     }
     @Override
     public String multiplyBinary(String num1, String num2) {
