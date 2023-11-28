@@ -7,4 +7,5 @@ interface Divider {
     float divide (float num1, int num2);
     String divideBinary (String num1, String num2);
     String divideHex (String num1, String num2);
+    String divideDec (String num1, String num2);
 }

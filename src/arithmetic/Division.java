@@ -27,4 +27,9 @@ public class Division implements Divider {
         int quotient = divide(first, second);
         return Integer.toHexString(quotient);
     }
+    public String divideDec(String num1, String num2) {
+        int first = Integer.parseInt(num1, 10);
+        int second = Integer.parseInt(num2, 10);
+        int quotient = divide(first, second);
+        return Integer.toString(quotient,10);
 }

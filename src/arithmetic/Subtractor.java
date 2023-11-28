@@ -7,4 +7,5 @@ public interface Subtractor {
     float subtract (float num1, int num2);
     String subtractBinary (String num1, String num2);
     String subtractHex (String num1, String num2);
+    String subtractDec (String num1, String num2);
 }

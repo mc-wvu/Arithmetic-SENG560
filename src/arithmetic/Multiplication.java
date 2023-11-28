@@ -27,4 +27,10 @@ public class Multiplication implements Multiplier {
         int product = multiply(first, second);
         return Integer.toHexString(product);
     }
+    public String multiplyDec(String num1, String num2) {
+        int first = Integer.parseInt(num1, 10);
+        int second = Integer.parseInt(num2, 10);
+        int product = multiply(first, second);
+        return Integer.toString(product,10);
+    }
 }

@@ -7,4 +7,5 @@ interface Multiplier {
     float multiply (float num1, int num2);
     String multiplyBinary (String num1, String num2);
     String multiplyHex (String num1, String num2);
+    String multiplyDec (String num1, String num2);
 }

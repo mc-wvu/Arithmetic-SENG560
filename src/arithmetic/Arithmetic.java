@@ -11,6 +11,7 @@ public class Arithmetic implements Adder, Subtractor, Multiplier, Divider {
     public float add (float num1, int num2){return new Addition().add(num1, num2);}
     public String addBinary (String num1, String num2) {return new Addition().addBinary(num1, num2);}
     public String addHex (String num1, String num2) {return new Addition().addHex(num1, num2);}
+    public String addDec (String num1, String num2) {return new Addition().addDec(num1, num2);}
 
     //=================================================================
     //Subtraction methods
@@ -19,7 +20,7 @@ public class Arithmetic implements Adder, Subtractor, Multiplier, Divider {
     public float subtract (float num1, int num2) {return new Subtraction().subtract(num1, num2);}
     public String subtractBinary (String num1, String num2) {return new Subtraction().subtractBinary(num1, num2);}
     public String subtractHex (String num1, String num2) {return new Subtraction().subtractHex(num1, num2);}
-
+    public String subtractDec (String num1, String num2) {return new Subtraction().subtractDec(num1, num2);}
     //=================================================================
     //Multiplication methods
     public int multiply (int num1, int num2) {return new Multiplication().multiply(num1, num2);}
@@ -27,7 +28,7 @@ public class Arithmetic implements Adder, Subtractor, Multiplier, Divider {
     public float multiply (float num1, int num2) {return new Multiplication().multiply(num1, num2);}
     public String multiplyBinary (String num1, String num2) {return new Multiplication().multiplyBinary(num1, num2);}
     public String multiplyHex (String num1, String num2) {return new Multiplication().multiplyHex(num1, num2);}
-
+    public String multiplyDec (String num1, String num2) {return new Multiplication().multiplyDec(num1, num2);}
     //=================================================================
     //Division methods
     public int divide (int num1, int num2) {return new Division().divide(num1, num2);}
@@ -35,4 +36,5 @@ public class Arithmetic implements Adder, Subtractor, Multiplier, Divider {
     public float divide (float num1, int num2) {return new Division().divide(num1, num2);}
     public String divideBinary (String num1, String num2) {return new Division().divideBinary(num1, num2);}
     public String divideHex (String num1, String num2) {return new Division().divideHex(num1, num2);}
+    public String divideDec (String num1, String num2) {return new Division().divideDec(num1, num2);}
 }

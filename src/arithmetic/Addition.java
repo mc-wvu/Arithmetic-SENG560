@@ -27,4 +27,10 @@ class Addition implements Adder{
         int sum = add(first, second);
         return Integer.toHexString(sum);
     }
+    public String addDec(String num1, String num2) {
+        int first = Integer.parseInt(num1, 10);
+        int second = Integer.parseInt(num2, 10);
+        int sum = add(first, second);
+        return Integer.toString(sum,10);
+    }
 }

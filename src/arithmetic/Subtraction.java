@@ -26,4 +26,10 @@ public class Subtraction implements Subtractor {
         int difference = subtract(first, second);
         return Integer.toHexString(difference);
     }
+    public String subtractDec(String num1, String num2) {
+        int first = Integer.parseInt(num1, 10);
+        int second = Integer.parseInt(num2, 10);
+        int difference = subtract(first, second);
+        return Integer.toString(difference,10);
+    }
 }

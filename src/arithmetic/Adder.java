@@ -7,4 +7,5 @@ interface Adder {
     float add (float num1, int num2);
     String addBinary (String num1, String num2);
     String addHex (String num1, String num2);
+    String addDec (String num1, String num2);
 }
